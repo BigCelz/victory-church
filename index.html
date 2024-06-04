@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Victory Church</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="images/Logo (1).png" />
+
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- fontawesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- norican font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+
+  <!-- mouse font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">VC Training</a>
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="program.html">Programs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="onlineTest.html">Online Tests</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="mentor.html">Mentors</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Students
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="studentLogin.html">Student Login</a></li>
+              <li><a class="dropdown-item" href="createStudent.html">Create New User</a></li>
+              <li><a class="dropdown-item" href="updatestudent.html">Update Student Info</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="d-flex justify-content-center">
+          <span class="navbar-text login-text">Log In</span>
+          <button class="nav-btn"> Get Started</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- hero section start -->
+  <section class="hero">
+    <!-- this section is empty -->
+  </section>
+  <!-- hero section end -->
+
+  <!-- first card-form section start -->
+  <section class="card-form d-flex justify-content-center align-items-center">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Admin Login</h5>
+        <div class="formm form-space-grey">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label mt-3">Username (Your Email)</label>
+              <input type="email" class="form-control custom-rounded" id="exampleInputEmail1"
+                aria-describedby="emailHelp" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control custom-rounded" id="exampleInputPassword1"
+                placeholder="••••••••••">
+            </div>
+
+            <button type="submit" class="btn-form mt-2 mb-2">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- first card-form section end -->
+
+
+  <!-- vc training section start -->
+  <section class="vc">
+    <div class="text-center">
+      <h5 class="training">VC Training Center-Admin Main Menu </h5>
+    </div>
+
+    <div class="container ">
+      <div class="container card-container">
+        <div class="card-deck card-deck-custom mt-5">
+          <div class="card card-custom">
+            <img src="images/Mockup.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title programs">Programs Admin</h5>
+              <p class="card-text text-center programs-offered">8 programs Offered</p>
+              <p class="card-text text-center n-program">“n” Programs Offered</p>
+            </div>
+          </div>
+
+          <div class="card card-custom">
+            <img src="images/Mockup (1).png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title programs">Online Tests Admin</h5>
+              <p class="card-text text-center programs-offered">10 Online Tests</p>
+              <p class="card-text text-center n-program">“n” Online Tests</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container card-container card-container-ii">
+      <div class="card-deck card-deck-custom mt-5">
+        <div class="card card-custom">
+          <img src="images/Mockup (2).png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title programs">Mentors Admin</h5>
+            <p class="card-text text-center programs-offered">8 Mentors</p>
+            <p class="card-text text-center n-program">“n” Mentors</p>
+          </div>
+        </div>
+
+        <div class="card card-custom">
+          <img src="images/Mockup (3).png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title programs">Students Admin</h5>
+            <p class="card-text text-center programs-offered">50 Sudenst</p>
+            <p class="card-text text-center n-program">“n” Enrolled Students</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+  </section>
+  <!-- vc training section end -->
+
+  <!-- mentor section start -->
+  <section class="mentor">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 first-mentor-col">
+          <h2 class="our-mentors">Our Mentors</h2>
+          <p class="mentor-words">
+            Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do eiusmod tempor incidt ut labore et dolore
+            magna aliqua. Ut enim exerction ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+
+          <a href="#" class="mentor-btn mt-2"> Browse Students &nbsp; <img src="images/arrow-right.png" alt=""
+              class="img-fluid" width="15px" height="15px"> </a>
+        </div>
+
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="img-container">
+                <img src="" alt="" class="img-fluid">
+              </div>
+            </div>
+
+            <div class="col-md-8">
+              <div class="row d-flex">
+                <div class="col-md-4">
+                  <div class="first-row-img">
+                    <img src="images/Profile Card.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="first-row-img">
+                    <img src="images/Profile Card (1).png" alt="" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="first-row-img">
+                    <img src="images/Profile Card (2).png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="second-col-img">
+                    <img src="images/Profile Card (3).png" alt="" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="second-col-img">
+                    <img src="images/Profile Card (4).png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- mentor section end -->
+
+  <!-- students section start -->
+  <section class="student">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="student-image">
+            <img src="images/Mockup (4).png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-7 student-second-col ms-auto">
+          <h2 class="student-vc">Students at VC</h2>
+          <p class="student-wordd">
+            Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do eiusmod tempor incidt ut labore et
+            dolore magna aliqua. Ut enim exerction ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+
+          <div class="student-buttons d-flex ">
+            <a href="#" class="student-btn1">Create A New Account &nbsp; <img src="images/arrow-right.png" class="img-fluid stu-img-ii" alt=""></a>
+            <a href="#" class="student-btn2">Access Student Portal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- students section end -->
+
+  <!-- footer section start -->
+ <section class="footer">
+  <div class="container">
+   <h2 class="footer-head">VC Training</h2>
+
+   <p class="footer-words">Victory Church Training Center Designed By By Pastor Gian C Villatoro  </p>
+
+   <div class="container container-list">
+    <div class="row jusitfy-content-center">
+      <div class="col-auto">
+        <ul class="list-unstyled d-flex">
+         <a href="onlineTest.html" class="footer-link"><li class="footer-list">Online Tests</li></a> 
+         <a href="program.html" class="footer-link" ><li class="footer-list">Programs</li></a> 
+         <a href="mentor.html" class="footer-link"><li class="footer-list">Mentors</li></a> 
+         <a href="" class="footer-link"><li class="footer-list">Student</li></a> 
+        </ul>
+       </div>
+    </div>
+   </div>
+
+   <div class="row">
+    <p class="footer-words-ii">© 2024 Victory Church. All rights reserved.</p>
+   </div>
+  </div>
+ </section>
+  <!-- footer section end -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

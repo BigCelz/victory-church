@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar start */
+.navbar{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    background: var(--primary-50, #EBF5FF);
+}
+
+.navbar-brand{
+    font-family: Norican;
+    font-size: 36px;
+    font-weight: 400 !important;
+    line-height: 54px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color:#1A56DB !important;
+}
+
+.navbar-nav {
+    margin-left: 50px !important; 
+}
+
+.nav-link{
+    font-family: Mouse Memoirs;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 27px !important;
+    letter-spacing: 0.1em;
+    /* text-align: center; */
+    color: black;    
+    margin-left: 30px;
+}
+
+.nav-link:hover{
+    color: #1A56DB !important; ;
+}
+
+.active{
+    color: #1A56DB !important; ;
+}
+
+.login-text {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+}
+
+.navbar-text{
+    font-family: Mouse Memoirs;
+    font-size: 18px;
+    font-weight: 400 !important;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: black;   
+}
+
+.nav-btn{
+    width: 144px;
+    height: 47px;
+    padding: 6px;
+    gap: 2;
+    border-radius: 50px;
+    opacity: 0px;
+    text-decoration: none;
+    font-family: Mouse Memoirs;
+    font-size: 18px;
+    font-weight: 400 !important;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: center !important;
+    justify-content: center !important;
+    border: none;
+    background: #1A56DB !important;
+    color: white !important;
+    
+}
+/* nav section end */
+
+/* hero section start */
+.hero{
+    text-align: center;
+    justify-content: center;
+    width: Fixed (1,440px)px;
+    height: Fixed (220px)px;
+    top: 102px;
+    gap: var(--0);
+    opacity: 0px;
+    background-image: url('images/Hero (3).png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+/* hero section end */
+
+
+/* big form section start */
+
+.student-form{
+    padding-top: 80px;
+    padding-bottom: 300px;
+    background: var(--primary-50, #EBF5FF);
+}
+
+.form-cont{
+    background-color: white !important;
+    width: 100%;
+    padding: 50px 50px;
+    border-radius: 50px !important;
+}
+
+.student-form-head{
+    font-family: Mouse Memoirs;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: var(--primary-600, #1C64F2);
+
+}
+
+.dd{
+    background: #E5E7EB;
+    text-align: center;
+    padding: 80px 10px !important;
+    border-radius: 50px;
+}
+
+.click{
+    font-weight: 600 !important;
+}
+
+.createstudent-form-btn{
+    width: 190px;
+    height: 34px;
+    border-radius: 50px;
+    background: var(--primary-700, #1A56DB);
+    font-family: Mouse Memoirs;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    border: 1px solid #1A56DB !important;
+    background-color: white;
+    color: #1A56DB !important;
+    cursor: pointer;
+}
+
+.createstudent-form-btn-ii{
+    width: 100%;
+    height: 55px;
+    border-radius: 50px;
+    background: var(--primary-700, #1A56DB);
+    font-family: Mouse Memoirs;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    border: 1px solid #1A56DB !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.program-rounded{
+    border-radius: 24px !important;
+    height: 44px !important;
+    background: #D1D5DB !important;
+}
+
+.program-rounded:focus{
+    box-shadow: none !important;
+    border: none !important;
+    background: var(--gray-50, #F9FAFB);
+}
+
+.program-labell{
+    font-family: Mouse Memoirs;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: var(--gray-800, #1F2A37);
+
+}
+
+.stdnt-form{
+    padding: 70px 10px;
+}
+
+.form-pics{
+    width: 150px;
+    height: auto;
+}
+
+.btnnn-form{
+    width: 174px !important;
+    height: 40px;
+    border-radius: 50px;
+    background: var(--primary-700, #1A56DB);
+    font-family: Mouse Memoirs;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    border: 1px solid #1A56DB !important;
+    background-color: white;
+    color: #1A56DB !important;
+    cursor: pointer;
+    margin-top: 40px !important;
+}
+/* big form end */
+
+
+/* footer start */
+.footer{
+    background: var(--gray-800, #1F2A37);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-head{
+    font-family: Norican;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.06em;
+    color: #1A56DB
+}
+
+.footer-words{
+    font-family: Mouse Memoirs;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--primary-200, #C3DDFD); 
+}
+
+.container-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-list{
+    margin: 10px 15px;
+    font-family: Mouse Memoirs;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.footer-words-ii{
+    font-family: Mouse Memoirs;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: white;
+}
+
+.footer-link{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+/* footer end */

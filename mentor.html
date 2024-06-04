@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victory Church</title>
+    <link rel="stylesheet" href="mentor.css" />
+    <link rel="icon" href="images/Logo (1).png" />
+  
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- norican font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+  
+    <!-- mouse font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+
+    <!-- lato font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">VC Training</a>
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"  href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"  href="program.html">Programs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"  href="onlineTest.html">Online Tests</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="mentor.html">Mentors</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle " href="studentLogin.html" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Students
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="studentLogin.html">Student Login</a></li>
+              <li><a class="dropdown-item" href="createStudent.html">Create New User</a></li>
+              <li><a class="dropdown-item" href="updatestudent.html">Update Student Info</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="d-flex justify-content-center">
+          <span class="navbar-text login-text">Log In</span>
+          <button class="nav-btn"> Get Started</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero">
+        <!-- this section is empty -->
+    </section>
+   <!-- hero section end -->
+
+  <!-- first card-form section start -->
+  <section class="card-form d-flex justify-content-center align-items-center">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Admin Login</h5>
+        <div class="formm form-space-grey">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label mt-3">Username (Your Email)</label>
+              <input type="email" class="form-control custom-rounded" id="exampleInputEmail1"
+                aria-describedby="emailHelp" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control custom-rounded" id="exampleInputPassword1"
+                placeholder="••••••••••">
+            </div>
+
+            <button type="submit" class="btn-form mt-2 mb-2">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- first card-form section end -->
+
+  <!-- mentors at vc section start -->
+  <section class="mentor-vc">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="mentor-vc-head text-center">Mentors AT VC Training Center</h2>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-12">
+               <div class="buttons">
+                   <button class="mentor-btn1">Update Existing Mentor</button>
+                   <button class="mentor-btn2">Create New Mentor</button>
+               </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- mentors at vc section end -->
+
+  <!-- list of mentor section start -->
+ <section class="list-mentor">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="list-mentor-head">List of Mentors</h2>
+            </div>
+
+            <div class="col-md-6 text-md-end">
+                <button class="list-mentor-btn"><img src="images/plus.png" alt="" class="img-fluid">Add New Mentor</button>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 mt-2">
+                    <table class="table custom-table">
+                        <thead>
+                          <tr>
+                            <th scope="col" class="level">MENTOR</th>
+                            <th scope="col" class="level">PHONE</th>
+                            <th scope="col" class="level">CITY</th>
+                            <th scope="col" class="level">ADDRESS</th>
+                            <th scope="col" class="level">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <div class="d-flex">
+                                <th scope="row" class="one">
+                                  <img src="images/Avatar3.png" alt="" class="img-fluid"> &nbsp; Ralph Edwards
+                                </th>
+                            </div>
+                            <td class="level-one">(907) 555-0101</td>
+                            <td class="table-link mentor-address">Naperville</td>
+                            <td class="table-link mentor-address">8502 Preston Rd. Inglewood, Maine 98380</td>
+                            <div class="d-flex">
+                                <td>
+                                  <button class="table-btn1">update</button>
+                                  <button class="table-btn2">delete</button>
+                                </td>
+                            </div>
+                          </tr>
+                          <tr>
+                            <div class="d-flex">
+                                <th scope="row" class="one">
+                                  <img src="images/Avatar1.png" alt="" class="img-fluid"> &nbsp; Cameron Williamson
+                                </th>
+                            </div>
+                            <td class="level-one">(219) 555-0114</td>
+                            <td class="table-link mentor-address">Fairfieldtd>
+                            <td class="table-link mentor-address">2464 Royal Ln. Mesa, New Jersey 45463</td>
+                            <div class="d-flex">
+                                <td>
+                                  <button class="table-btn1">update</button>
+                                  <button class="table-btn2">delete</button>
+                                </td>
+                            </div>
+                          </tr>
+                          <tr>
+                            <div class="d-flex">
+                                <th scope="row" class="one">
+                                  <img src="images/Avatar.png" alt="" class="img-fluid"> &nbsp; Guy Hawkins
+                                </th>
+                            </div>
+                            <td class="level-one">(217) 555-0113</td>
+                            <td class="table-link mentor-address">Toledo</td>
+                            <td class="table-link mentor-address">4140 Parker Rd. Allentown, New Mexico 31134</td>
+                            <div class="d-flex men-btnn">
+                                <td>
+                                  <button class="table-btn1">update</button>
+                                  <button class="table-btn2">delete</button>
+                                </td>
+                            </div>
+                          </tr>
+                          <tr>
+                            <div class="d-flex">
+                                <th scope="row" class="one">
+                                  <img src="images/Avatar2.png" alt="" class="img-fluid"> &nbsp; Robert Fox
+                                </th>
+                            </div>
+                            <td class="level-one">(316) 555-0116</td>
+                            <td class="table-link mentor-address">Austin</td>
+                            <td class="table-link mentor-address">1901 Thornridge Cir. Shiloh, Hawaii 81063</td>
+                            <div class="d-flex">
+                                <td>
+                                  <button class="table-btn1">update</button>
+                                  <button class="table-btn2">delete</button>
+                                </td>
+                            </div>
+                          </tr>
+                       
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+  <!-- list of mentor section end -->
+
+     <!-- footer section start -->
+     <section class="footer">
+        <div class="container">
+         <h2 class="footer-head">VC Training</h2>
+      
+         <p class="footer-words">Victory Church Training Center Designed By By Pastor Gian C Villatoro  </p>
+      
+         <div class="container container-list">
+          <div class="row jusitfy-content-center">
+            <div class="col-auto">
+             <ul class="list-unstyled d-flex">
+              <a href="onlineTest.html" class="footer-link"><li class="footer-list">Online Tests</li></a> 
+              <a href="program.html" class="footer-link" ><li class="footer-list">Programs</li></a> 
+              <a href="mentor.html" class="footer-link"><li class="footer-list">Mentors</li></a> 
+              <a href="" class="footer-link"><li class="footer-list">Student</li></a> 
+             </ul>
+            </div>
+          </div>
+         </div>
+      
+         <div class="row">
+          <p class="footer-words-ii">© 2024 Victory Church. All rights reserved.</p>
+         </div>
+        </div>
+       </section>
+        <!-- footer section end -->
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
